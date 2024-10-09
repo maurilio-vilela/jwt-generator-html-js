@@ -1,0 +1,29 @@
+body {  
+    transition: background-color 0.5s, color 0.5s;  
+}  
+
+.dark-mode {  
+    color: #ffffff; /* Texto claro no modo escuro */  
+}  
+
+.dark-mode .form-control {  
+    background-color: #495057; /* Fundo dos inputs escuros */  
+    color: #ffffff; /* Texto claro no input */  
+}  
+
+.dark-mode .border {  
+    border-color: #6c757d; /* Borda dos inputs no modo escuro */  
+}  
+
+.dark-mode .bg-light {  
+    background-color: #495057 !important; /* Fundo dos cards e seções */  
+}  
+
+/* Estilizando o botão secundário no modo escuro */  
+.dark-mode .btn-secondary {  
+    background-color: #6c757d;  
+    border-color: #6c757d;  
+}
+#generatedKey {  
+    word-wrap: break-word; /* Para quebrar a linha automaticamente se necessário */  
+}
